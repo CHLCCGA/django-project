@@ -183,4 +183,5 @@ This project uses the python web framework to connect django and mysql to add, d
 >```
 
 + ### pictures
+[picture here](https://github.com/CHLCCGA/django-project/tree/main/screenshot)
 
