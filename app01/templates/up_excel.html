@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+    <h3>upload file</h3>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="fs">
+        <input type="submit" value="submit">
+    </form>
+{% endblock %}
